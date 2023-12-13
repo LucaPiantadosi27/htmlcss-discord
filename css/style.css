@@ -38,13 +38,17 @@ header, section {
 }
 
 
-
+.background-nav{
+   
+    background-image:url(img)
+}
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
     /* test */
     padding: 10px ;
+    
 }
 
 nav .container > * {
@@ -64,7 +68,7 @@ nav .container {
 }
 
 nav .logo {
-    width: 100px;
+    width: 200px;
 }
 
 #logo{
@@ -83,12 +87,21 @@ nav .nav-links ul {
 
 
 nav .login {
-    width: 100px;
+    width: 200px;
     text-align: right;
+}
+button{
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
 }
 /* fine sezione navbar */
 
-
+#black{
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
 
 /* sezione hero */
 #hero {
@@ -111,7 +124,7 @@ nav .login {
 }
 
 .column-big {
-    background-color: #1e90ff;
+    background-image: image(img)
     height: 400px;
     border: dashed 2px black;
     /* test */
@@ -137,7 +150,10 @@ nav .login {
     /* test */
 }
 /* fine sezioni grigie */
-
+#violet{
+    background-color: rgb(142, 161, 225);
+    color: white;
+}
 
 /* sezione footer */
 
@@ -173,6 +189,11 @@ footer #footer-top .footer-column {
     flex-grow: 1;
 }
 
+.footer-title{
+    color: rgb(115, 139, 221);
+}
+
+
 footer #footer-bottom {
     background-color: #7fffd4;
     /* test */
@@ -192,5 +213,6 @@ footer #footer-bottom > * {
 
     padding: 4px 8px;
 }
+
 
 /* fine sezione footer */
